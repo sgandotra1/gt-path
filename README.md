@@ -47,7 +47,7 @@ Current checks do not validate GPA, prerequisites, schedule conflicts, repeats/e
 
 Buildless HTML/CSS/JavaScript. `dist/model.js` holds rules and import validation; `dist/app.js` implements the UI and browser persistence; `tests/model.test.js` tests credit allocation and import boundaries. No API key, server database or LLM is used in this release.
 
-## Roadmap toward a RAG application
+## Roadmap
 
 1. Parse audit PDFs locally or through an explicitly consented backend, preserving source provenance and user confirmation.
 2. Ingest versioned requirements and published course offerings into structured tables, with freshness dates.
@@ -55,8 +55,6 @@ Buildless HTML/CSS/JavaScript. `dist/model.js` holds rules and import validation
 4. Retrieve evidence filtered by program, catalog year and course. An LLM explains computed plans using citations and abstains where evidence is missing.
 5. Evaluate retrieval recall, citation support, credit matching and missing-evidence behavior. Track latency, tokens and estimated request cost.
 6. Expose evidence search and requirement gaps through an MCP server; deploy the API on GCP.
-
-Do not describe this initial release as an implemented RAG system; that is a future milestone.
 
 ## Contributing
 

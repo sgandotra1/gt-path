@@ -2,6 +2,8 @@
 
 An independent, open-source course-planning prototype for **Georgia Tech MSCS, Machine Learning, coursework option**. It connects user-entered course records to transparent requirement matching and semester scenarios, including questions to investigate for study abroad.
 
+[Try the public demo](https://sgandotra1.github.io/gt-path/). The app starts with a blank profile and saves entered courses only in your browser.
+
 **Status:** functional browser-local planning prototype. This release does not implement RAG, a vector database, live course offerings, PDF audit import, or verified study abroad matching. It does not replace advising or Degree Works.
 
 ## Quick start
